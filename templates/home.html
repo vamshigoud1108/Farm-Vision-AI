@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>Farm Vision - Home</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">`
+  <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico">
+</head>
+<body>
+   <!--Header Section-->
+  <header>
+    <nav>
+      <a href="{{ url_for('home.home_page') }}" class="logo">
+        <p class="logo-text">Farm Vision</p>
+        <span class="tagline">Bringing AI to Agriculture</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="{{ url_for('home.home_page') }}" class="active">Home</a></li>
+        <li><a href="{{ url_for('crop.show_crop_recommendation') }}" >Crop</a></li>
+        <li><a href="{{ url_for('disease.show_disease_form') }}" >Disease</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--Hero Section-->
+  <div class="hero-sec">
+    <div class="hero-content">
+      <h1>Welcome to Farm Vision</h1>
+      <p class="sub-text">Empowering farmers with smart solutions! Get AI-driven crop recommendations and crop disease detection to enhance your yield and protect your crops. Make informed decisions for a sustainable and profitable future in agriculture.</p>
+    </div>
+    <div class="questions">
+      <h2>Here are some questions we will answer?</h2>
+      <p>What crops should I grow in my region?</p>
+      <p>What diseases are affecting my crops?</p>
+      <p>How can I cure and prevent crop diseases?</p>
+  </div>
+  </div>
+
+  <!--About Section-->
+  <div class="about-sec">
+    <h2>About Us</h2>
+    <div class="about-info">
+      <img src="{{ url_for('static', filename='images/about-us.jpg') }}" alt="About Us">
+      <div class="about-text">
+        <h3>Improving Agriculture,Improving Lives,cultivating Crops to Make Farmers Increase Profit</h3>
+        <p>
+          We are dedicated to empowering farmers with smart agricultural solutions. 
+          Our AI-driven recommendations help you choose the right crops, optimize fertilizer use, and detect crop diseases early. 
+          By combining technology with agriculture, we aim to boost productivity, ensure sustainability, and increase farmers' profits. 
+          Together, we cultivate a smarter future for farming!
+        </p> 
+      </div>
+    </div>
+  </div>
+
+  <!--Services Section-->
+  <div class="services-sec">
+    <h2>Our Services</h2>
+    <div class="services-info">
+      <a href="{{ url_for('crop.show_crop_recommendation') }}">
+        <div class="service">
+          <img src="{{ url_for('static', filename='images/service-img1.jpg') }}" alt="">
+          <div class="service-text">
+            <h5>Crop Recommendation</h5>
+            <p>Recommendation about the type of crops to be cultivated, best suited for respective conditions.</p>
+          </div>
+        </div>
+      </a>
+      <a href="{{ url_for('disease.show_disease_form') }}">
+        <div class="service">
+          <img src="{{ url_for('static', filename='images/service-img2.webp') }}" alt="">
+          <div class="service-text">
+            <h5>Crop Disease Detection</h5>
+            <p>Identify crop diseases early by uploading an image and receive treatment advice.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+   </div>
+
+   <!--Footer Section-->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <h2>Farm Vision</h2>
+      </div>
+      <p>Made with ❤️ for farmers and agriculture enthusiasts.</p>
+      <p>Empowering better crop decisions, detecting diseases early, and improving yields.</p>
+      <p>&copy; 2025 Farm Vision. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,289 @@
+{
+  "Apple___Apple_scab": {
+    "Cause": "Fungus (Venturia inaequalis)",
+    "Cure_Steps": [
+      "Remove and destroy infected leaves and fruits to prevent reinfection.",
+      "Improve air circulation by pruning trees and spacing them properly.",
+      "Apply fungicides such as captan or mancozeb before symptoms appear.",
+      "Water at the base of the tree to keep foliage dry and reduce fungal spread."
+    ]
+  },
+  "Apple___Black_rot": {
+    "Cause": "Fungus (Botryosphaeria obtusa)",
+    "Cure_Steps": [
+      "Prune and destroy infected branches, fruits, and leaves immediately.",
+      "Improve tree airflow by maintaining proper spacing and pruning regularly.",
+      "Apply fungicides such as copper-based or sulfur-based sprays.",
+      "Avoid injuries to fruits and bark to prevent fungal entry points."
+    ]
+  },
+  "Apple___Cedar_apple_rust": {
+    "Cause": "Fungus (Gymnosporangium juniperi-virginianae)",
+    "Cure_Steps": [
+      "Remove nearby cedar or juniper trees to break the disease cycle.",
+      "Prune and destroy infected leaves and twigs to prevent fungal spread.",
+      "Apply fungicides like myclobutanil or mancozeb early in the season.",
+      "Improve air circulation by spacing trees properly and reducing moisture buildup."
+    ]
+  },
+  "Apple___healthy": {
+    "Message": "Your apple tree is healthy! Maintain proper care and regular monitoring."
+  },
+  "Blueberry___healthy": {
+    "Message": "Your blueberry plant is healthy! Keep up the good care."
+  },
+  "Cherry_(including_sour)___Powdery_mildew": {
+    "Cause": "Fungus (Podosphaera clandestina)",
+    "Cure_Steps": [
+      "Remove and destroy infected leaves, twigs, and fruits promptly.",
+      "Increase air circulation around trees by pruning branches and spacing properly.",
+      "Apply sulfur or potassium bicarbonate-based fungicides as a preventive measure.",
+      "Avoid excessive nitrogen fertilization, as it promotes mildew growth."
+    ]
+  },
+  "Cherry_(including_sour)___healthy": {
+    "Message": "Your cherry tree is healthy! Keep it well-pruned and maintain soil health."
+  },
+  "Corn_(maize)___Cercospora_leaf_spot_Gray_leaf_spot": {
+    "Cause": "Fungus (Cercospora zeae-maydis)",
+    "Cure_Steps": [
+      "Rotate crops annually to disrupt the disease cycle and reduce spores in the soil.",
+      "Plant resistant corn varieties to minimize infection risks.",
+      "Apply fungicides such as strobilurins or triazoles if infection is severe.",
+      "Ensure proper plant spacing to improve airflow and reduce leaf moisture."
+    ]
+  },
+  "Corn_(maize)___Common_rust_": {
+    "Cause": "Fungus (Puccinia sorghi)",
+    "Cure_Steps": [
+      "Plant rust-resistant corn varieties whenever possible.",
+      "Apply fungicides such as mancozeb or propiconazole when symptoms appear.",
+      "Remove heavily infected plants to prevent further spread.",
+      "Improve field ventilation and avoid excessive irrigation."
+    ]
+  },
+  "Corn_(maize)___Northern_Leaf_Blight": {
+    "Cause": "Fungus (Exserohilum turcicum)",
+    "Cure_Steps": [
+      "Use disease-resistant hybrids to reduce susceptibility.",
+      "Rotate crops annually to break the disease cycle.",
+      "Apply fungicides such as azoxystrobin or chlorothalonil at early infection stages.",
+      "Reduce humidity around plants by maintaining proper spacing."
+    ]
+  },
+  "Corn_(maize)___healthy": {
+    "Message": "Your maize/corn crop is healthy! Keep monitoring for early signs of disease."
+  },
+  "Grape___Black_rot": {
+    "Cause": "Fungus (Guignardia bidwellii)",
+    "Cure_Steps": [
+      "Remove and destroy infected leaves, berries, and canes promptly.",
+      "Apply sulfur-based fungicides before bud break and during the season.",
+      "Prune vines regularly to increase air circulation and reduce humidity.",
+      "Use resistant grape varieties to minimize disease susceptibility."
+    ]
+  },
+  "Grape___Esca_(Black_Measles)": {
+    "Cause": "Fungus (Phaeomoniella chlamydospora, Phaeoacremonium species)",
+    "Cure_Steps": [
+      "Prune infected wood and remove affected vines to prevent spread.",
+      "Avoid excessive pruning wounds to reduce fungal entry points.",
+      "Apply fungicides containing thiophanate-methyl in early infection stages.",
+      "Ensure proper vineyard sanitation and remove infected debris." 
+    ]
+  },
+  "Grape___healthy": {
+    "Message": "Your grape plant is healthy! Keep up the good care."
+  },
+  "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+    "Cause": "Fungus (Isariopsis clavispora)",
+    "Cure_Steps": [
+      "Prune affected leaves and maintain good vineyard ventilation.",
+      "Apply copper-based fungicides before symptoms develop.",
+      "Avoid overhead irrigation to reduce leaf wetness and fungal spread.",
+      "Use disease-resistant grape varieties when available."
+    ]
+  },
+  "Orange___Haunglongbing_(Citrus_greening)": {
+    "Cause": "Bacteria (Candidatus Liberibacter spp.)",
+    "Cure_Steps": [
+      "Remove and destroy infected trees to prevent further spread.",
+      "Control psyllid populations with insecticides and biological control methods",
+      "Use disease-free planting material and resistant rootstocks.",
+      "Regularly inspect trees for symptoms and apply nutrient management strategies."
+    ]
+  },
+  "Peach___Bacterial_spot": {
+    "Cause": "Bacteria (Xanthomonas arboricola pv. pruni)",
+    "Cure_Steps": [
+      "Remove and destroy infected leaves and fruit to reduce bacterial spread.",
+      "Apply copper-based bactericides as a preventive measure.",
+      "Avoid overhead watering to minimize leaf wetness.",
+      "Use resistant peach varieties and practice proper orchard sanitation."
+    ]
+  },
+  "Peach___healthy": {
+    "Message": "Your peach tree is healthy! Keep monitoring for any disease symptoms."
+  },
+  "Pepper,_bell___Bacterial_spot": {
+    "Cause": "Bacteria (Xanthomonas campestris pv. vesicatoria)",
+    "Cure_Steps": [
+      "Remove infected leaves and avoid handling plants when wet.",
+      "Apply copper-based bactericides to reduce infection.",
+      "Use disease-resistant pepper varieties.",
+      "Rotate crops and avoid planting peppers in the same soil year after year."
+    ]
+  },
+  "Pepper,_bell___healthy": {
+    "Message": "Your pepper plant is healthy! Continue good care practices."
+  },
+  "Potato___Early_blight": {
+    "Cause": "Fungus (Alternaria solani)",
+    "Cure_Steps": [
+      "Rotate crops and avoid planting potatoes in the same soil consecutively.",
+      "Apply fungicides such as chlorothalonil or mancozeb early in the season.",
+      "Remove infected leaves and debris to prevent fungal spread.",
+      "Water at the base of plants to keep foliage dry."
+    ]
+  },
+  "Potato___Early_blight": {
+    "Cause": "Fungus (Alternaria solani)",
+    "Cure_Steps": [
+      "Rotate crops and avoid planting potatoes in the same soil consecutively.",
+      "Apply fungicides such as chlorothalonil or mancozeb early in the season.",
+      "Remove infected leaves and debris to prevent fungal spread.",
+      "Water at the base of plants to keep foliage dry."
+    ]
+  },
+  "Potato___Late_blight": {
+        "Cause": "Fungus (Phytophthora infestans)",
+        "Cure_Steps": [
+            "Remove and destroy infected plants immediately.",
+            "Apply fungicides such as metalaxyl or copper-based sprays.",
+            "Improve air circulation by spacing plants properly.",
+            "Avoid excessive moisture and ensure proper drainage."
+        ]
+  },
+  "Potato___healthy": {
+        "Message": "Your potato crop is healthy! Keep monitoring for any early signs of disease."
+  },
+  "Raspberry___healthy": {
+    "Message": "Your raspberry plant is healthy! Continue proper care and monitoring."
+},
+"Soybean___healthy": {
+        "Message": "Your soybean crop is healthy! Keep monitoring for pests and diseases."
+    },
+"Squash___Powdery_mildew": {
+        "Cause": "Fungus (Podosphaera xanthii)",
+        "Cure_Steps": [
+            "Remove infected leaves to reduce the spread of spores.",
+            "Apply sulfur- or potassium bicarbonate-based fungicides.",
+            "Ensure good air circulation and reduce humidity around plants.",
+            "Water at the base of plants instead of overhead."
+        ]
+    },
+    "Strawberry___Leaf_scorch": {
+        "Cause": "Fungus (Diplocarpon earlianum)",
+        "Cure_Steps": [
+            "Remove and destroy infected leaves to prevent further spread.",
+            "Apply fungicides such as chlorothalonil or captan early in the season.",
+            "Avoid overhead irrigation to keep foliage dry.",
+            "Ensure proper plant spacing to improve air circulation."
+        ]
+    },
+
+  "Strawberry___healthy": {
+        "Message": "Your strawberry plant is healthy! Keep up with regular care and monitoring."
+    },
+"Tomato___Bacterial_spot": {
+        "Cause": "Bacteria (Xanthomonas campestris pv. vesicatoria)",
+        "Cure_Steps": [
+            "Remove infected leaves and avoid working with wet plants.",
+            "Apply copper-based bactericides as a preventive measure.",
+            "Use disease-free seeds and resistant tomato varieties.",
+            "Rotate crops annually to reduce bacterial buildup."
+        ]
+    },
+    "Tomato___Early_blight": {
+        "Cause": "Fungus (Alternaria solani)",
+        "Cure_Steps": [
+            "Remove infected leaves and destroy them away from the garden.",
+            "Apply fungicides like chlorothalonil or copper sprays.",
+            "Avoid overhead watering and keep foliage dry.",
+            "Space plants properly to improve air circulation."
+        ]
+    },
+
+    "Tomato___Late_blight": {
+        "Cause": "Fungus (Phytophthora infestans)",
+        "Cure_Steps": [
+            "Remove and destroy infected plants immediately.",
+            "Apply fungicides such as metalaxyl or mancozeb at early infection stages.",
+            "Improve air circulation by spacing plants adequately.",
+            "Avoid excessive moisture and ensure proper drainage."
+        ]
+    },
+  "Tomato___Leaf_Mold": {
+        "Cause": "Fungus (Passalora fulva)",
+        "Cure_Steps": [
+            "Remove infected leaves to reduce disease spread.",
+            "Apply fungicides such as copper-based sprays or chlorothalonil.",
+            "Improve ventilation in greenhouses and outdoor plant spacing.",
+            "Avoid overhead watering and ensure dry foliage."
+        ]
+    },
+
+    "Tomato___Septoria_leaf_spot": {
+        "Cause": "Fungus (Septoria lycopersici)",
+        "Cure_Steps": [
+            "Prune infected leaves and remove debris from the garden.",
+            "Apply fungicides like chlorothalonil or copper-based sprays.",
+            "Water at the base of the plant instead of overhead.",
+            "Rotate crops and use disease-resistant varieties."
+        ]
+    },
+
+    "Tomato___Spider_mites_Two-spotted_spider_mite": {
+        "Cause": "Pest (Tetranychus urticae)",
+        "Cure_Steps": [
+            "Spray affected plants with insecticidal soap or neem oil.",
+            "Introduce natural predators such as ladybugs or predatory mites.",
+            "Increase humidity around plants to discourage spider mites.",
+            "Regularly wash leaves with water to remove mites."
+        ]
+    },
+
+  "Tomato___Target_Spot": {
+        "Cause": "Fungus (Corynespora cassiicola)",
+        "Cure_Steps": [
+            "Remove infected leaves and debris.",
+            "Apply fungicides like mancozeb or azoxystrobin.",
+            "Avoid excessive nitrogen fertilization.",
+            "Improve air circulation and reduce humidity."
+        ]
+    },
+
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+        "Cause": "Virus transmitted by whiteflies (Bemisia tabaci)",
+        "Cure_Steps": [
+            "Control whiteflies using insecticidal soaps or yellow sticky traps.",
+            "Use resistant tomato varieties whenever possible.",
+            "Remove infected plants to prevent further virus spread.",
+            "Avoid planting tomatoes near infested crops."
+        ]
+    },
+
+  "Tomato___Tomato_mosaic_virus": {
+        "Cause": "Virus (Tobamovirus)",
+        "Cure_Steps": [
+            "Remove and destroy infected plants immediately.",
+            "Disinfect tools and hands after handling infected plants.",
+            "Use disease-resistant tomato varieties.",
+            "Avoid tobacco products near tomato plants, as the virus can spread this way."
+        ]
+    },
+
+    "Tomato___healthy": {
+      "Message": "Your tomato plant is healthy! Keep monitoring for early signs of disease."
+  }
+}

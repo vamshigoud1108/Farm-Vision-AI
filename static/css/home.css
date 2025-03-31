@@ -1,0 +1,181 @@
+/* Hero Styling */
+.hero-sec{
+  width: 100%;
+  min-height:100vh;
+  background-image: url('/static/images/hero-bg.webp');  
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+.hero-sec::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); 
+}
+.hero-sec * {
+  position: relative;
+  z-index: 2;
+}
+.hero-content {
+  max-width: 800px;
+  padding: 20px;
+  animation: fadeIn 1.2s ease-in-out;
+}
+.hero-content h1{
+  font-size:45px;
+  font-weight: bold;
+  color: #f4d03f;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+}
+.hero-sec .sub-text {
+  font-size: 18px;
+  color: #f8f8f8;
+  line-height: 1.6;
+  margin-bottom:10px;
+}
+.hero-sec .questions {
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.15); /* Soft translucent white */
+  backdrop-filter: blur(5px);
+  animation: fadeIn 1.2s ease-in-out;
+}
+.hero-sec .questions h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #f1f1f1;
+  margin-bottom: 10px;
+}
+.hero-sec .questions p {
+  color: #ddd;
+  font-size: 16px;
+  margin: 5px 0;
+}
+.hero-sec .questions h2::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  width: 60%;
+  height: 4px;
+  background: linear-gradient(to right, #f4d03f, #e67e22);
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+/* About section Styling*/
+.about-sec{
+  width:100%;
+  max-width: 1200px;
+  margin:100px auto;
+}
+.about-sec h2{
+  color: #333;
+  font-size: 30px;
+  font-weight:600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.about-sec .about-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding:50px 0;
+}
+.about-sec  img {
+  width:45%;
+  max-width: 500px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.about-sec .about-text {
+  width: 50%;
+  text-align: left;
+}
+.about-sec  h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #333;
+}
+.about-sec p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Services Section Styling */
+.services-sec{
+  width:100%;
+  margin:0 auto;
+  padding:50px 0;
+  background-color: #eeeeee;
+}
+.services-sec h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom:50px;
+  text-align: center;
+}
+.services-info {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.service {
+  position: relative;
+  width: 300px; 
+  height: 350px; 
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding:10px;
+  background-color: #fff;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.service:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); 
+}
+.service img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.service-text {
+  position: absolute;
+  bottom: 0; 
+  left: 0;
+  width:100%;
+  height: 50%; 
+  background:#fff; 
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+}
+.service-text h5{
+  font-size:20px;
+  font-weight:600;
+}
+.service-text p{
+  color:#666666;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>Farm Vision - Disease Prediction Result</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/disease_result.css') }}">`
+  <link rel="icon" type="image/png" href="/static/images/web-icon2.png">
+</head>
+<body>
+  <!--Header Section-->
+  <header>
+    <nav>
+      <a href="{{ url_for('home.home_page') }}" class="logo">
+        <p class="logo-text">Farm Vision</p>
+        <span class="tagline">Bringing AI to Agriculture</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="{{ url_for('home.home_page') }}" >Home</a></li>
+        <li><a href="{{ url_for('crop.show_crop_recommendation') }}" >Crop</a></li>
+        <li><a href="{{ url_for('disease.show_disease_form') }}">Disease</a></li>
+      </ul>
+    </nav>
+  </header>
+   <!--Result Section-->
+  <div class="result-sec">
+    {% if image_url %}
+        <img src="{{ image_url }}" alt="Uploaded Image">
+    {% endif %}
+
+    <div class="title">{{ disease_name }}</div>
+
+    {% if is_healthy %}
+        <div class="message">{{ message }}</div>
+    {% else %}
+        <div class="cause"><p>Cause: <span> {{cause}}</span></p></div>
+        <div class="cure-steps"><strong>Cure Steps:</strong>
+            <ul>
+                {% for step in cure_steps %}
+                    <li>{{ step }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+  </div>
+
+  <!--Footer Section-->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <h2>Farm Vision</h2>
+      </div>
+      <p>Made with ❤️ for farmers and agriculture enthusiasts.</p>
+      <p>Empowering better crop decisions, detecting diseases early, and improving yields.</p>
+      <p>&copy; 2025 Farm Vision. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
