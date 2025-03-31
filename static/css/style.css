@@ -46,8 +46,7 @@ nav .logo {
 nav .logo .logo-text{
   font-size: 28px; 
   font-weight: bold; 
-  color: #27ae60; 
-  text-transform: uppercase; 
+  color: #27ae60;
   letter-spacing: 1.5px; 
 }
 nav .logo .tagline {
