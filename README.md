@@ -1,4 +1,7 @@
 # FarmVision 🌾
+![Project Demo](static/images/Project-Demo.png)
+
+## Project Overview
 A machine learning and deep learning-based website that recommends the best crop to grow based on soil conditions, including nutrient levels and environmental factors, while also detecting diseases in crops and providing detailed step-by-step guidance on how to cure them effectively.
 
 ## Disclaimer ⚠️
@@ -67,6 +70,7 @@ Once the app is running, open http://127.0.0.1:5000/ in your browser to access F
 1. Enter soil values such as Nitrogen (N), Phosphorus (P), and Potassium (K).
 2. Click on the "Recommend Crop" button.
 3. The system provides the most suitable crop based on the soil data.
+![Crop_Recommendation_Demo](static/images/crop_recommed_demo.png)
 
 ### Disease Detection
 - **Scenario**: A farmer notices unusual spots on their crop leaves.
@@ -74,6 +78,8 @@ Once the app is running, open http://127.0.0.1:5000/ in your browser to access F
 1. Upload a clear image of the affected crop leaf.
 2. Click on the "Detect Disease" button.
 3. The system classifies the disease and provides cure recommendations.
+![Crop_Recommendation_Demo](static/images/disease_prediction_demo.gif)
+
 
 ## Future Improvements 📈
 - **Fertilizer Recommendation**: Implement a system that suggests fertilizers based on soil deficiencies.
