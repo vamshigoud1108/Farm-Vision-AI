@@ -70,6 +70,7 @@ Once the app is running, open http://127.0.0.1:5000/ in your browser to access F
 1. Enter soil values such as Nitrogen (N), Phosphorus (P), and Potassium (K).
 2. Click on the "Recommend Crop" button.
 3. The system provides the most suitable crop based on the soil data.
+
 ![Crop_Recommendation_Demo](static/images/crop_recommed_demo.png)
 
 ### Disease Detection
@@ -78,6 +79,7 @@ Once the app is running, open http://127.0.0.1:5000/ in your browser to access F
 1. Upload a clear image of the affected crop leaf.
 2. Click on the "Detect Disease" button.
 3. The system classifies the disease and provides cure recommendations.
+
 ![Crop_Recommendation_Demo](static/images/disease_prediction_demo.gif)
 
 
